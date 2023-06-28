@@ -19,8 +19,8 @@ namespace ChromeAndDriverKill
                 foreach (var chromeDriverP in chromeDriver)
                     chromeDriverP.Kill();
 
-            Console.WriteLine("All killed chrome process.");
-            Thread.Sleep(3000);
+            Console.WriteLine("All killed chrome process.(await crk)");
+            Console.ReadKey();
         }
     }
 }

@@ -14,8 +14,8 @@ namespace ChromeKill
             foreach (var p in kp)
                 p.Kill();
 
-            Console.WriteLine("All killed chrome process.");
-            Thread.Sleep(3000);
+            Console.WriteLine("All killed chrome process.(await crk)");
+            Console.ReadKey();
         }
     }
 }
