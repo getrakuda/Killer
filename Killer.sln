@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeKill", "ChromeKill\ChromeKill.csproj", "{F9D89BBE-B792-4A38-8A67-5A604615B8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeDriverKill", "ChromeDriverKill\ChromeDriverKill.csproj", "{5A65BE7C-5E21-4862-ADED-CFB3BCCC3069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeAndDriverKill", "ChromeAndDriverKill\ChromeAndDriverKill.csproj", "{5CC24B22-9825-4FC4-BB17-792CD9A7BA22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9D89BBE-B792-4A38-8A67-5A604615B8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D89BBE-B792-4A38-8A67-5A604615B8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D89BBE-B792-4A38-8A67-5A604615B8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D89BBE-B792-4A38-8A67-5A604615B8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A65BE7C-5E21-4862-ADED-CFB3BCCC3069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A65BE7C-5E21-4862-ADED-CFB3BCCC3069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A65BE7C-5E21-4862-ADED-CFB3BCCC3069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A65BE7C-5E21-4862-ADED-CFB3BCCC3069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC24B22-9825-4FC4-BB17-792CD9A7BA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC24B22-9825-4FC4-BB17-792CD9A7BA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC24B22-9825-4FC4-BB17-792CD9A7BA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC24B22-9825-4FC4-BB17-792CD9A7BA22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
