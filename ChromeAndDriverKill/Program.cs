@@ -15,7 +15,7 @@ namespace ChromeAndDriverKill
                 foreach (var chromeP in chrome)
                     chromeP.Kill();
 
-            if (chromeDriver.Length == 0)
+            if (chromeDriver.Length != 0)
                 foreach (var chromeDriverP in chromeDriver)
                     chromeDriverP.Kill();
 
