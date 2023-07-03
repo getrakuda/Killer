@@ -1,6 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-using System.Threading;
+﻿using System.Diagnostics;
 
 namespace ChromeAndDriverKill
 {
@@ -15,12 +13,10 @@ namespace ChromeAndDriverKill
                 foreach (var chromeP in chrome)
                     chromeP.Kill();
 
-            if (chromeDriver.Length != 0)
-                foreach (var chromeDriverP in chromeDriver)
-                    chromeDriverP.Kill();
+            if (chromeDriver.Length == 0) return;
+            foreach (var chromeDriverP in chromeDriver)
+                chromeDriverP.Kill();
 
-            Console.WriteLine("All killed chrome process.(await crk)");
-            Console.ReadKey();
         }
     }
 }
